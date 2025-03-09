@@ -1,0 +1,40 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+env/
+*.venv
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Dependency files (if using poetry or pipenv)
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# Credentials & Config files
+config.json
+config.yaml
+.env
+secrets.json
+telegram_config.py  # If storing API keys inside
+
+# Docker and build-related files
+Dockerfile
+*.dockerignore
+dist/
+build/
+*.egg-info/
